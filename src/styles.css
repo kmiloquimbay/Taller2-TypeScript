@@ -18,6 +18,15 @@ tbody {
     background-color: #F0F0F0;
 }
 
+.btn {
+    background-color: #48CFCB;
+    color: #F0F0F0;
+}
+
+.card {
+    background-color: #F0F0F0;
+}
+
 .avg-text {
     color: #F0F0F0;
 }
