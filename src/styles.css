@@ -17,3 +17,7 @@ thead {
 tbody {
     background-color: #F0F0F0;
 }
+
+.series-name {
+    font-weight: bold;
+}

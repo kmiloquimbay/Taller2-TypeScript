@@ -14,7 +14,7 @@ function showSeries(series: any[]): void {
         let serieRow: HTMLElement = document.createElement('tr');
         serieRow.innerHTML = `
             <td>${serie.getId()}</td>
-            <td>${serie.getName()}</td>
+            <td class="series-name">${serie.getName()}</td>
             <td>${serie.getChannel()}</td>
             <td>${serie.getSeasons()}</td>
         `;

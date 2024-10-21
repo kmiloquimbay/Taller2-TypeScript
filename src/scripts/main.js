@@ -7,7 +7,7 @@ function showSeries(series) {
     for (var _i = 0, series_1 = series; _i < series_1.length; _i++) {
         var serie = series_1[_i];
         var serieRow = document.createElement('tr');
-        serieRow.innerHTML = "\n            <td>".concat(serie.getId(), "</td>\n            <td>").concat(serie.getName(), "</td>\n            <td>").concat(serie.getChannel(), "</td>\n            <td>").concat(serie.getSeasons(), "</td>\n        ");
+        serieRow.innerHTML = "\n            <td>".concat(serie.getId(), "</td>\n            <td class=\"series-name\">").concat(serie.getName(), "</td>\n            <td>").concat(serie.getChannel(), "</td>\n            <td>").concat(serie.getSeasons(), "</td>\n        ");
         totalSeasons += serie.getSeasons();
         seriesList.appendChild(serieRow);
     }
