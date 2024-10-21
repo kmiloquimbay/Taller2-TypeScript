@@ -1,0 +1,19 @@
+body {
+    background-color: #F5F5F5;
+}
+
+nav {
+    background-color: #48CFCB;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #48CFCB;
+    color: white;
+}
+
+tbody {
+    background-color: #F0F0F0;
+}

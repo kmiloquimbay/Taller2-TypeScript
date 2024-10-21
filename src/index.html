@@ -8,6 +8,29 @@
     <title>Taller 1 - TypeScript</title>
 </head>
 <body>
-    <script src="scripts/main.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Series App</a>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <header>
+            <h1>Series</h1>
+        </header>
+        <table class="table table-stripped table-hover table-bordered" id="seriesTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
