@@ -1,23 +1,32 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #424242;
 }
 
 nav {
     background-color: #48CFCB;
-    color: white;
+    color: #F0F0F0;
     padding: 10px;
     text-align: center;
 }
 
 thead {
     background-color: #48CFCB;
-    color: white;
+    color: #F0F0F0;
 }
 
 tbody {
     background-color: #F0F0F0;
 }
 
+.avg-text {
+    color: #F0F0F0;
+}
+
 .series-name {
     font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 20px;
 }

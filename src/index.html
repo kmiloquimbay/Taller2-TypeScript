@@ -16,19 +16,33 @@
     </nav>
 
     <div class="container my-4">
-        <header>
-            <h1>Series</h1>
-        </header>
-        <table class="table table-stripped table-hover table-bordered" id="seriesTable">
-            <thead class="thead-dark">
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Channel</th>
-                    <th>Seasons</th>
-                </tr>
-            </thead>
-        </table>
+        <div class="row">
+        
+            <div class="col-md-8">
+                <table class="table table-stripped table-hover table-bordered" id="seriesTable">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+
+            <div class="col-lg-4" id="cardContainer" style="display:none;">
+                <div id="serieInfo" class="card">
+                    <img id="serieImage" src="" class="card-img-top" alt="Series Image">
+                    <div class="card-body">
+                        <h5 id="serieTitle" class="card-title"></h5>
+                        <p id="serieDescription" class="card-text"></p>
+                        <a id="serieLink" href="#" class="btn" target="_blank">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 
     <script type="module" src="./scripts/main.js"></script>
